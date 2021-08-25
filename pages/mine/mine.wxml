@@ -1,0 +1,16 @@
+<!--pages/mine/mine.wxml-->
+<view>
+	<view>
+		<view id="item" wx:for="{{songList}}" wx:for-index="indexs" wx:for-item="items" bindtap="toPlay" data-index="{{indexs}}">
+			<image class="img" src="{{items.imgURL}}"></image>
+			<view class="song">
+				<view class="songName">{{items.songName}}</view>
+				<view class="singerName">{{items.singer}}</view>
+			</view>
+		</view>
+	</view>
+
+	<view></view>
+	<view></view>
+	<view></view>
+</view>

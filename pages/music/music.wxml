@@ -1,0 +1,9 @@
+<!-- pages/music/music.wxml -->
+<view class="warp">
+	<image id="turn" class="{{playStatus==true?'play':'stop'}}" src="{{imgURL}}" bindtap="play"></image>
+	<image class="playNeedle" src="./playNeedle.png"></image>
+	<image class="player" src="{{playerURL}}"></image>
+	<image class="playBtn" wx:if="{{!playStatus}}" src="./playBtn.png" bindtap="play"></image>
+</view>
+	<text class="songName">{{songName}}</text>
+	<text class="singer">{{singer}}</text>

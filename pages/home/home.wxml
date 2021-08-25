@@ -1,0 +1,47 @@
+<!--pages/home/home.wxml-->
+<swiper class="swiperWrap" indicator-dots="true" autoplay="true" circular="true">
+	<swiper-item>
+		<image class="simg" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595662960843&di=2372040e40b55afdeef2544af7864fb1&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2F1393587eee3c0015368ad000eec57d68e3b1d15d.jpg"></image>
+	</swiper-item>
+	<swiper-item>
+		<image class="simg" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595662044984&di=1d2ccfd0eaf7c2592b37a5c5cae5c7a9&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201902%2F18%2F20190218142348_ukpkn.jpg"></image>
+	</swiper-item>
+	<swiper-item>
+		<image class="simg" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595662073338&di=88d008c3856a5ec4257640d15b972155&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2Fdfc16970de680e8d2e90caf8a1b67dc99248ac33.jpg"></image>
+	</swiper-item>
+	<swiper-item>
+		<image class="simg" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595662568008&di=22ba5cdbaa50bcac013898d01da4f223&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201712%2F11%2F20171211104703_f8CPX.jpeg"></image>
+	</swiper-item>
+</swiper>
+
+<view>
+	<view class="iconpart">
+		<view class="iconwrap">
+			<image class="icon" src="./icon/1.png"></image><text class="word">每日推荐</text>
+		</view>
+		<view class="iconwrap">
+			<image class="icon" src="./icon/2.png"></image><text class="word">每日推荐</text>
+		</view>
+		<view class="iconwrap">
+			<image class="icon" src="./icon/3.png"></image><text class="word">每日推荐</text>
+		</view>
+		<view class="iconwrap">
+			<image class="icon" src="./icon/4.png"></image><text class="word">每日推荐</text>
+		</view>
+	</view>
+
+	<view class="iconpart">
+		<view class="iconwrap">
+			<image class="icon" src="./icon/5.png"></image><text class="word">每日推荐</text>
+		</view>
+		<view class="iconwrap">
+			<image class="icon" src="./icon/6.png"></image><text class="word">每日推荐</text>
+		</view>
+		<view class="iconwrap">
+			<image class="icon" src="./icon/7.png"></image><text class="word">每日推荐</text>
+		</view>
+		<view class="iconwrap">
+			<image class="icon" src="./icon/8.png"></image><text class="word">每日推荐</text>
+		</view>
+	</view>
+</view>

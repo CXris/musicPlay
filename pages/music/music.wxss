@@ -1,0 +1,82 @@
+/* pages/music/music.wxss */
+page {
+  height: 100%;
+  background-color: #161824;
+}
+
+.warp {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.player {
+  width: 290px;
+  height: 290px;
+  position: absolute;
+  margin-top: 130px;
+}
+
+.playNeedle {
+  width: 96px;
+  height: 137px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 5px;
+  z-index: 999;
+}
+
+.playBtn {
+  margin-top: 130px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 998;
+}
+
+#turn{
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 130px;
+  z-index: 997;
+}
+
+.play {
+  animation: turn 10s linear infinite;
+}
+
+.stop{
+  animation: turn 10s linear infinite paused;
+}
+
+@keyframes turn {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.songName{
+  font-size: 30px;
+  padding-top: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.singer{
+  font-size: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

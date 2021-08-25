@@ -1,0 +1,27 @@
+/* pages/mine/mine.wxss */
+#item {
+  display: flex;
+  padding-top: 15px;
+}
+
+.img {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 90px;
+  height: 70px;
+}
+
+.song {
+  margin-right: 15px;
+  width: 100%;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.songName {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.singerName {
+  font-size: 14px;
+}

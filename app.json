@@ -1,0 +1,46 @@
+{
+  "entryPagePath": "pages/home/home",
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/music/music",
+    "pages/home/home"
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "音乐列表",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#FFB6C1",
+    "backgroundColor": "#fff",
+
+    "list": [{
+        "text": "个人",
+        "iconPath": "./public/人物1.png",
+        "selectedIconPath": "./public/人物.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "首页",
+        "iconPath": "./public/主页1.png",
+        "selectedIconPath": "./public/主页.png",
+        "pagePath": "pages/home/home"
+      },
+      {
+        "text": "列表",
+        "iconPath": "./public/音乐1.png",
+        "selectedIconPath": "./public/音乐.png",
+        "pagePath": "pages/mine/mine"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
